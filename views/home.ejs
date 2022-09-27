@@ -1,0 +1,30 @@
+<%- include('header'); -%>
+  <body>
+    <!-- top part with climate and images mainly title -->
+    <section  id="title">
+
+      <div class="row">
+          <div class="col-lg-6 headline">
+            <h1>“Climate is what we expect, weather is what we get.”    Mark Twain</h1>
+            <div class="searchTab">
+              <form  action="/" method="post">
+                <input class="input form-control form-control-lg" type="text" name="cityName" placeholder="Search your city">
+                <button class="btn btn-warning searchBtn" type="submit" name="button">Search</button>
+              </form>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <img class="title-image "src="images/sun.png" alt="">
+
+          </div>
+
+      </div>
+
+    </section>
+
+    <section id="weatherData">
+
+
+    </section>
+<%- include('footer'); -%>
